@@ -1,0 +1,320 @@
+a* {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#HeaderSection .AloHead {
+  background: #3b3d40;
+}
+#HeaderSection .AloHead .img-keeper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#HeaderSection .AloHead .img-keeper .img-holder {
+  display: flex;
+  align-items: center;
+}
+#HeaderSection .AloHead .AloNums {
+  margin: 18px 0;
+  display: flex;
+}
+#HeaderSection .AloHead .AloNums .num-keeper {
+  padding: 0;
+  margin-bottom: 0;
+}
+#HeaderSection .AloHead .AloNums .num-keeper li {
+  display: inline-block;
+  padding: 0 8px;
+}
+#HeaderSection .AloHead .AloNums .num-keeper li span a {
+  color: #757779;
+  font-size: 12px;
+  font-family: 'Montserrat',san-serif;
+}
+#HeaderSection .AloHead .AloNavigation {
+  margin: 18px 0;
+}
+#HeaderSection .AloHead .AloNavigation .navigation {
+  padding: 0;
+  margin-bottom: 0;
+}
+#HeaderSection .AloHead .AloNavigation .navigation li:first-child {
+  padding-left: 0;
+  padding-right: 18px;
+}
+#HeaderSection .AloHead .AloNavigation .navigation li {
+  padding: 0 18px;
+  display: inline-block;
+}
+#HeaderSection .AloHead .AloNavigation .navigation li span a {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Montserrat',san-serif;
+}
+#HeaderSection .AloHead .social-network {
+  margin: 18px 0;
+}
+#HeaderSection .AloHead .social-network ul {
+  padding: 0;
+}
+#HeaderSection .AloHead .social-network ul li:first-child {
+  padding-left: 0;
+  padding-right: 18px;
+}
+#HeaderSection .AloHead .social-network ul li {
+  display: inline-block;
+  padding: 0 18px;
+}
+
+#HeaderInfo .header-desc {
+  padding: 185px 0;
+  width: 100%;
+  text-align: center;
+  background-image: url(../img/image.png);
+  background-size: cover;
+}
+#HeaderInfo .header-desc h1 {
+  font-weight: bold;
+  color: white;
+  font-family: 'Montserrat',san-serif;
+  font-size: 52px;
+}
+#HeaderInfo .header-desc p {
+  color: white;
+  font-family: 'Montserrat',san-serif;
+  font-size: 20px;
+}
+
+#ServicesSection .online-order {
+  display: flex;
+  background-color: #ffce00;
+  padding: 10px;
+  border-radius: 0 20px 20px 0;
+  margin-bottom: -60px;
+  margin-top: 10px;
+}
+#ServicesSection .online-order p {
+  transform: rotate(-90deg);
+  font-size: 14px;
+  color: #3b3d40;
+  font-family: 'Montserrat',san-serif;
+}
+#ServicesSection .services-desc h1 {
+  font-size: 60px;
+  color: #3b3d40;
+  padding: 50px 0;
+  font-family: 'Montserrat',san-serif;
+}
+#ServicesSection .services-keeper {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+#ServicesSection .services-keeper .serv-desc-keep h2 {
+  font-size: 36px;
+  color: #3b3d40;
+  font-weight: bold;
+  font-family: 'Montserrat',san-serif;
+}
+#ServicesSection .services-keeper .serv-desc-keep p {
+  font-size: 14px;
+  color: #656b6f;
+  font-family: 'Montserrat',san-serif;
+}
+
+#AboutSection {
+  margin: 100px 0;
+}
+#AboutSection .about-desc {
+  background-color: #3b3d40;
+  position: relative;
+}
+#AboutSection .about-desc h1 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Montserrat',san-serif;
+  padding: 45px 0;
+}
+#AboutSection .about-desc p {
+  padding-bottom: 45px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Montserrat',san-serif;
+}
+#AboutSection .about-img-keeper {
+  position: absolute;
+  z-index: 9000;
+  top: -69px;
+  right: 0;
+}
+#AboutSection .about-img-keeper img {
+  width: 100%;
+}
+
+#FeaturesSection {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+#FeaturesSection .features-desc h1 {
+  font-size: 60px;
+  color: #3b3d40;
+  padding: 50px 0;
+  font-family: 'Montserrat',san-serif;
+}
+#FeaturesSection .feature-keep {
+  text-align: center;
+}
+#FeaturesSection .feature-keep h4 {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Montserrat',san-serif;
+  color: #3b3d40;
+  padding: 20px 0;
+}
+#FeaturesSection .feature-keep p {
+  font-size: 12px;
+  font-family: 'Montserrat',san-serif;
+  color: #656b6f;
+  padding-bottom: 30px;
+}
+
+#VacanciesSection .vacancy-desc h1 {
+  font-size: 60px;
+  color: #3b3d40;
+  padding: 50px 0;
+  font-family: 'Montserrat',san-serif;
+}
+#VacanciesSection .vac-btn {
+  width: 176px;
+  border: 2px solid #ffc100;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  color: #ffc100;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px;
+}
+#VacanciesSection .vac-btn:hover {
+  color: white;
+  background-color: #ffc100;
+  transition: 0.5s ease;
+}
+#VacanciesSection .active-vacan {
+  color: white;
+  background-color: #ffc100;
+}
+#VacanciesSection .vacancy-desc-keeper {
+  border: 2px solid #ffc100;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+#VacanciesSection .vacancy-desc-keeper .vac-header-keep {
+  background-color: #ffc100;
+  border-radius: 0 0 10px 10px;
+}
+#VacanciesSection .vacancy-desc-keeper .vac-header-keep h5 {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Montserrat',san-serif;
+  color: #3b3d40;
+  padding: 30px;
+}
+#VacanciesSection .vacancy-desc-keeper p {
+  padding: 30px;
+  font-size: 14px;
+  font-family: 'Montserrat',san-serif;
+  color: #656b6f;
+  padding-bottom: 30px;
+}
+
+#ContactSection {
+  background-color: #f9f9f9;
+  padding-bottom: 80px;
+}
+#ContactSection .contact-desc h1 {
+  font-size: 60px;
+  color: #3b3d40;
+  padding: 50px 0;
+  font-family: 'Montserrat',san-serif;
+}
+#ContactSection .contact-desc p {
+  font-size: 14px;
+  font-family: 'Montserrat',san-serif;
+  color: #656b6f;
+}
+#ContactSection .contact-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #ffc100;
+  font-weight: bold;
+  color: #656b6f;
+  font-family: 'Montserrat',san-serif;
+}
+#ContactSection .contact-btn {
+  width: 176px;
+  border: 2px solid #ffc100;
+  height: 43px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: #ffc100;
+  float: right;
+  margin-right: -10px;
+  margin-top: 10px;
+}
+#ContactSection .social-network {
+  margin: 18px 0;
+}
+#ContactSection .social-network ul {
+  padding: 0;
+}
+#ContactSection .social-network ul li:first-child {
+  padding-left: 0;
+  padding-right: 18px;
+}
+#ContactSection .social-network ul li {
+  display: inline-block;
+  padding: 0 18px;
+}
+
+#FooterSection {
+  background-color: #3b3d40;
+}
+#FooterSection .AloNavigation {
+  margin: 18px 0;
+}
+#FooterSection .AloNavigation .navigation {
+  padding: 0;
+  margin-bottom: 0;
+}
+#FooterSection .AloNavigation .navigation li:first-child {
+  padding-left: 0;
+  padding-right: 18px;
+}
+#FooterSection .AloNavigation .navigation li {
+  padding: 0 18px;
+  display: inline-block;
+}
+#FooterSection .AloNavigation .navigation li span a {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Montserrat',san-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
